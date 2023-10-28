@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf7f7;
+    padding: 30px;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Manrope', sans-serif;
+}
+
+.estado-cuenta {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+    color: #333;
+}
+
+.table1{
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 500px;
+    height:200px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ff8000;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.column{
+    display: flex;
+    flex-direction: row
+}
+
+.column1{
+    flex: 1;
+    padding-right: 75px;
+    padding-left: 90px;
+    margin-bottom: 220px;
+    margin-left: -40px;
+}
+
+.column2{
+    flex: 2;
+    margin-bottom: 200;
+    margin-right: 120px;
+}
+
+.table2{
+    border-collapse: collapse;
+    margin-top: 45px;
+    width: 500px;
+    height:100px;
+    margin-right: 250px;
+}
+
+.totalvolu{
+    background-color: #fbff2a;
+    
+}
+
+
+img{
+    position: relative;
+    top: 5px;
+    width: 200px;
+    margin-bottom: -140px;
+    
+}
+
+.table3{
+    margin-left: 300px;
+    margin-top: -200px;
+    width: 450px;
+    height: 200px;
+  
+}
+
+.arriba{
+    margin-top: 20px;
+}
+
+.capacidadEst{
+    margin-bottom: 60px;
+}
+
+.abajo{
+    margin-top: 55px;
+}
+
+.arriba2{
+    margin-top: -300px;
+}
+
+
+
+a[href="ver_saldo.html"] {
+position: absolute;
+bottom: 10px;  /* Ajusta este valor según el espacio que quieras dejar en la parte inferior */
+left: 50%;
+transform: translateX(-50%);
+/* Estilo del botón, como ya se proporcionó anteriormente */
+display: inline-block;
+padding: 35px 20px;
+background-color: #3498db;
+color: #ffffff;
+text-decoration: none;
+border-radius: 4px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s;
+margin-left: 500px;
+margin-bottom: -230px;
+}
+
+a[href="ver_saldo.html"]:hover {
+background-color: #2980b9;
+}
+
+
+
+
+
+

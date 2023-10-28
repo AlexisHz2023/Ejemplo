@@ -1,0 +1,461 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding: 40px;
+}
+body{
+  background:#e9ebee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-family: sans-serif;
+  padding: 40px;
+}
+@media screen and (max-width: 1560px) {
+  .container{
+    background-position: -70%;
+  }
+}
+.container{
+  max-width: 1920px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.login ,.register{width: 50%}
+
+
+.login{
+  float:left;
+  background-color: #fafafa;
+  height: 90%;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  padding-top: 100px;
+  top: 20px;
+  position: relative;
+}
+.login h1{
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+input[type="email"] , input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #eeeeef;
+
+}
+input[type="checkbox"]{
+  float: left;
+  margin-right: 5px;
+}
+
+.login span{
+  float: left
+}
+.login a{
+  float: right;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s all ease-in-out;
+}
+
+.login a:hover{color: #FF8000;font-weight: bold}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #span2{ */
+  /* top: -100%;
+  right: 0;
+  width: 2%;
+  height: 100px;
+  background: linear-gradient(270deg,transparent,orange); */
+
+/* } */
+
+/* .btn-sesion:hover #span2{ */
+  /* right: 100%;
+  transition: 1s;
+  transition-delay: 0.25s; */
+/* } */
+
+
+/* #span4{ */
+  /* top: -100%;
+  right: 0;
+  width: 2%;
+  height: 100px;
+  background: linear-gradient(360deg,transparent,orange); */
+
+/* } */
+
+/* .btn-sesion:hover #span4{ */
+  /* right: 100%;
+  transition: 1s;
+  transition-delay: 0.75s; */
+/* } */
+
+
+
+
+
+
+
+
+.login hr{
+  width: 30%;
+  display: inline-block
+}
+
+.login p{
+  display: inline-block;
+  margin: 0px 10px 30px;
+}
+.login ul{
+  list-style: none;
+  margin-bottom:40px;  
+}
+.login ul li{
+  display: inline-block;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.login ul li:hover{opacity: 0.6}
+.login ul li:last-child{margin-right: 0}
+.login .copyright{
+  display: inline-block;
+  float: none;
+}
+/*Start Register Style*/
+.register{
+  float: right;
+  background-image: linear-gradient(135deg,white,50%, rgb(244,137,59)120%);
+  height: 90%;
+  color:#fff;
+  border-radius:  0 10px 10px  0;
+  text-align: center;
+  padding: 90px 0;
+  top: 20px;
+  position: relative;
+}
+.register h2{
+  margin: 30px 0;
+  font-size: 50px;
+  letter-spacing: 3px
+}
+.register p{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.register button{
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:0.2s all  ease-in-out;
+}
+.register button:hover{
+  color: #FF8000;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.copyright {
+  position: relative;
+  top: 150px;
+  left: 10rem;
+  z-index: 1;
+
+}
+
+.Letrero{
+  position:relative;
+  top: 90px;
+  float: right;
+  z-index: 1;
+  right: 70px;
+  text-align: center;
+  padding: 10px;
+
+  }
+
+
+  .oculta {
+    display: none;
+  }
+  
+  .mostrar-desde-abajo {
+    animation: mostrarDesdeAbajo 1.10s ease-out;
+  }
+  
+  @keyframes mostrarDesdeAbajo {
+    from {
+      transform: translateY(100%); 
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+
+  .login-interface {
+ /* Azul */
+    
+    z-index: 2; 
+  }
+  .login-interface button{
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    transition: 0.2;
+    right: 20px;
+    height: 50px;
+    width: 250px;
+    border-color: #eeeeef;
+    background-color: #eeeeef;
+    border-radius: 10px;
+    top: 30px;
+  }
+
+  button:hover{
+    background-color:rgb(92, 97, 148) ;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #eeeeef;
+  }
+  
+  button p:hover{
+    color: #e9ebee;
+  }
+
+  button p {
+    position: relative;
+    top: 7px;
+  }
+
+
+
+
+  .segunda-interface {
+    background-color: rgb(66,119,183); /* Verde */
+    color: #fff;
+    height: 500vh; /* Cambiado a 100vh para cubrir toda la pantalla */
+    position: fixed; /* Cambiado a fixed para que la animación sea relativa a la ventana gráfica */
+    width: 100%; /* Ancho completo */
+    text-align: center;
+    z-index: 2;
+    top: -0rem;
+    right: 75px;
+    left: 0px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+  .Cuadro{
+    width: 450px;
+    padding: 20px;
+    border-radius: 6px;
+    height: 610px;
+    top: 50px;
+    border-radius:  0 10px 10px  0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
+    background-color: rgb(255, 255, 255);
+    left: 900px;
+    position: relative;
+    position: absolute;
+    box-shadow: 10px 10px 10px rgb(0, 102, 255);
+    
+ }
+
+ .Segungo_Cuadro{
+  position: relative;
+  width: 700px;
+  height: 610px;
+  background-color: rgb(12,77,164);
+  left: 200px;
+  top: 50px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 10px 10px 10px rgb(0, 102, 255);
+ }
+
+
+ .Segungo_Cuadro img{
+  position: relative;
+  top: 50px;
+ }
+
+
+
+
+
+
+ .img{
+  width: 80%;
+  animation: move-vector 3s linear infinite;
+ }
+@keyframes move-vector{
+  40%{
+    transform: translateY(20px);
+  }10%{
+    transform: translateY(5px);
+  }90%{
+    transform: translateX(20px);
+  }
+}
+ .Cuadro h2{
+  font-size: 60px;
+ }
+
+ .Seleccionar p{
+  color: rgb(12,77,164)
+  ;
+  font-size: 50px;
+  position: relative;
+  top: -70px;
+  right: 50px;
+}
+
+ .Seleccionar{
+    position: relative;
+    top: 100px;
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    color: rgb(48, 48, 241);
+    border-color: rgb(255, 160, 17);
+    font-family: sans-serif;
+    font-size: 15px;
+    left: 40px;
+    font-family: sans-serif;
+}
+  
+
+.Seleccionar_Dos{
+  position: relative;
+  top: 40px;
+  height: 60px;
+  width: 180px;
+  border-radius: 20px;
+  color: rgb(255, 252, 248);
+  border-color:  rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 15px;
+  left: 50px;
+  font-family: sans-serif;
+  border-color: 50px;
+  background-color:  rgb(12,77,164)
+  ;
+  font-size: 20px;
+
+
+
+}
+
+.Aceptar{
+  position: relative;
+  top: 150px;
+  text-align: center;
+  right: 85px;
+  height: 50px;
+  width: 110px;
+  border-radius: 5px;
+  border-color: rgb(255, 255, 255);
+  background-color:  rgb(12,77,164);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 20px;
+  
+}
+
+.Aceptar:hover{
+  background-color: rgb(66,119,183)
+  ;
+}
+
+
+
+.navigation-ul {
+  color: #04d2f7;
+}
+.navigation-content .opacity{
+  opacity: 0;
+  color: rgb(244,137,59);
+  font-family: 'Dancing Script', cursive;
+}
+
+.navigation-close-line{
+  height: 22px;
+  width: 2px;
+  border-radius: 10px;
+  background: rgb(244,137,59);
+  position: absolute;
+  transform: rotate(-45deg);
+}
+.navigation-close{
+  padding: 20px;
+  padding-top: 0px;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  cursor: pointer;
+}
+.navigation-close-line:nth-child(2){
+  transform: rotate(45deg);
+}
+
+
+.cerrar-interfaz {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  color:rgb(12,76,164)
+
+  ;  /* Ajusta el color según tu diseño */
+}
+
+.cerrar-interfaz:hover{
+  color: rgb(229,224,231)
+  ;
+}
+
+@media screen and (max-width:900px){
+    #principal{
+     width: 100%;
+    }
+    #uno{
+      width: 100%;
+    }
+    #dos{
+      background-color: #FFF;
+    }
+}

@@ -1,0 +1,116 @@
+body {
+    background-image: url(../img/campesino1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: 'Dancing Script', cursive;
+}
+
+/*Titulo de bienvenido con su estilo, posicion y tamaño*/
+h2 {
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    color: #FFE949;
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+
+    
+}
+
+/*Cuadro que se encuentra en la parte central de la pagina, adentro tiene sus campos y funcion de toda la pagina */
+.Cuadro{
+   width: 350px;
+   padding: 10px;
+   border-radius: 6px;
+   height: 450px;
+   position: relative;
+   top: -5px;
+   border-radius: 9px;
+   text-align: center;
+   font-family: 'Dancing Script', cursive; 
+   -webkit-backdrop-filter: blur(15px);
+   backdrop-filter: blur(15px);
+   background-color: rgba(245, 245, 245, 0.158);
+   
+
+}
+
+/*Parrafo que se encuentra dentro del cuadro tambien con sus estilos*/
+p{
+    position: relative;
+    top: -16px;
+    right: 37px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+    margin-top: -60px;
+
+    
+
+}
+
+img {
+    position: relative;
+    top: 5px;
+    width: 130px;
+}
+
+
+/*Aqui empieza toda la funcion que permite al usuario elegir, acomodando sus espacios t estilos que se nesecita para el funcionamiento correcto*/
+.Seleccionar{
+    position: relative;
+    top: 100px;
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    color: rgb(48, 48, 241);
+    border-color: rgb(255, 160, 17);
+    font-family: sans-serif;
+    font-size: 15px;
+    left: 40px;
+    font-family: sans-serif;
+}
+
+/*Parte final donde se encuentra las dos elecciones que tendra el usuario a la vez tambien sus colores como sus posiciones*/
+.Seleccionar_Dos{
+    position: relative;
+    top: 100px;
+    height: 50px;
+    width: 160px;
+    border-radius: 20px;
+    color: rgb(255, 252, 248);
+    border-color:  rgb(247, 208, 101);
+    font-family: sans-serif;
+    font-size: 15px;
+    left: 50px;
+    font-family: sans-serif;
+    border-color: 50px;
+    background-color:  rgb(245, 204, 94);
+    font-size: 20px;
+
+
+}
+/*y por ultimo el botom que permitira dirigir la pagina eleccion  a otra pagina donde el usuario confirmira con sus datos*/
+.Aceptar{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    right: 80px;
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    border-color: rgb(238, 177, 11);
+    background-color:  rgb(245, 204, 94);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+
+.Aceptar:hover {
+    background-color: #f8aa00bb;
+}
+

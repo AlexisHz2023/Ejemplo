@@ -1,0 +1,107 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(63,49,141);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: 'Dancing Script', cursive; 
+
+}
+
+.button-container {
+    background-color: rgb(63,49,141);
+    border-radius: 40px;
+    padding: 40px;
+    width: 350px;
+    height: 250PX;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.795);
+    
+}
+
+.export-button, .import-button {
+    padding: 30px 30px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 10px;
+    background-color: rgb(252,128,10)
+    ;
+    cursor: pointer;
+    padding: 30px 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #ffffff;
+    
+
+}
+
+.enviar-button{
+    position: absolute;
+    bottom: 190px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    left: 53%;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 19px;
+    color:#ffffff;
+    background-color: rgb(252,128,10)
+    ;
+}
+
+.volver-button{
+    position: absolute;
+    bottom: 190px;
+    margin-left: 15px;    
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 19px;
+    border: 2px solid blue;
+}
+
+button{
+    border: 2px solid rgb(252,128,10)
+    ;
+}
+
+button:hover{
+    /* background: linear-gradient(50deg,#1121ff, green); */
+    background: rgb(123,113,176)
+    ;
+}
+
+.volver-button:hover{
+ /*background: linear-gradient(50deg,#1121ff, green);  */
+ background: rgb(123,113,176)
+ ;
+}
+
+.volver1{
+    position: absolute;
+    bottom: 190px;
+    background-color: rgb(252,128,10)
+    ;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-left: -45px;
+    color: #ffffff;
+}
+
+h1{
+    /* color: rgb(142, 96, 28); */
+    
+    color: rgb(63,49,141);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive; 
+
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..//img/img1.png">
+    <link rel="stylesheet" href="../style/estilos1.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>inicio</title>
+    
+</head>
+<body>
+  <div class="container" id="principal">
+    <div class="login">
+        <div class="container" id="uno">
+            <h1>Inicio Sesión</h1>
+            <br>
+            <input type="email" id="correoInicio" placeholder="Correo"><br>
+            <br>
+            <input type="password" id="contraseñaInicio" placeholder="Contraseña"><br>
+            <!-- <input type="checkbox" id="recordarContraseña"><span>Recordar contraseña</span> -->
+            <section>
+    <div class="login-interface">
+        <!-- Contenido de la interfaz de inicio de sesión -->
+        <button onclick="mostrarSegundaInterfaz()"><p>Confirmar</p>
+        </button>
+
+      </div>
+      
+      <div class="segunda-interface oculta">
+        <div class="cerrar-interfaz" onclick="cerrarSegundaInterfaz()">x</div>
+        <div class="Segungo_Cuadro"><img src="../img/Cuadro.PNG"></div>
+        <div class="Cuadro">
+          <form id="opcionesForm">
+            <h2>!Bienvenido¡</h2>
+              <label for="opcion" class="Seleccionar"><p>!Hola!, ¿Que deseas hacer?</p></label> <br>
+              <select id="opcion" name="opcion" class="Seleccionar_Dos">
+                <option value="actualizar" >Actualizar</option>
+                <option value="verSaldo" >Ver Saldo</option>
+              </select>
+              <button type="button" class="Aceptar" onclick="redirigir()">Aceptar</button>
+            </form>
+          </div>
+      </div>
+
+  
+
+
+
+    
+      <a href="resgistro.html" class="Letrero"><p>¿No tienes cuenta? Presiona aquí para crear una</p></a>
+      <center><span class="copyright">&copy;2023</span></center>  
+  </div>
+</div>
+<div class="register" id="dos">
+  <div class="container">
+      <i class="fas fa-user-plus fa-5x"></i>
+      <h2>¡Bienvenido!</h2>
+      <p>Fondo de empleados Grupo Santa Maria</p>
+      <img class="img" src="../img/img1.png" alt="img"><br><br><br><br><br>
+  
+  </div>
+</div>  
+</div>
+
+<script src="../Script/inicio_sesion.js"></script>
+<script src="../Script/ver_saldo.js"></script>
+<script src="../script/eleccion1.js"></script>
+    
+</body>
+</html>
+

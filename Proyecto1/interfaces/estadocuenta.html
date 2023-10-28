@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/estilos3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Dancing+Script:wght@700&family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" href="..//img/logito.png">
+    <title>Estado de Cuenta</title>
+</head>
+<body>
+
+    <script>
+        swal.fire({
+        //titulo
+        title: 'Bienvenido',
+        text: 'A tu estado de cuenta',
+        // icon: 'success',
+        //funcion para que el usuario no le de click fuera del alerta
+        allowOutsideClick: false,
+        imageUrl: '../img/5.gif',    
+        imageWidth: '200px',  
+        imageAlt: 'estado de cuenta',
+        showConfirmButton: false,
+        showCancelButton: false,
+        showCloseButton: true,  // Corregido a showCloseButton
+        closeButtonAriaLabel: 'Cerrar'
+    });
+    </script>
+    
+<div class="estado-cuenta">
+
+    <img src="../img/img1.png" alt="LOGO FONDO DE EMPLEADOS" class="arriba2">
+
+    <h1 class="abajo">ESTADO DE CUENTA</h1>
+    <h2>CEDULA:    NOMBRE:</h2>
+    <h2>FINCA:</h2>
+
+    
+
+
+<div class="arriba">
+    <div class="capacidadEst">
+    <h1>
+    <script>
+
+        var capacidadE = 0;
+        document.write("SU CAPACIDAD DE ENDEUDAMIENTO ES:"+" "+capacidadE);
+    </script>
+    </h1>
+    </div>
+    
+    <section>
+    <div class="column">
+ 
+        <div class="column1">
+        <table class="table1">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Ahorros voluntarios</th>
+                <th>Monto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10/08/2023</td>
+                <td>A la vista</td>
+                <td>$000</td>
+            </tr>
+            <tr>
+                <td>11/08/2023</td>
+                <td>Programado</td>
+                <td>$000</td>
+            </tr>
+            <tr>
+                <td>12/08/2023</td>
+                <td>Vacacional</td>
+                <td>$000</td>
+            </tr>
+            <tr>
+                <td>12/08/2023</td>
+                <td>Previo de vivienda</td>
+                <td>$000</td>
+            </tr>
+
+            <tr>
+                <td class="totalvolu">12/08/2023</td>
+                <td class="totalvolu"">Total ahorro voluntario</td>
+                <td class="totalvolu">$000</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    
+    </div>
+
+    <div class="column2">
+
+        <table class="table1">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Creditos</th>
+                    <th>Monto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10/08/2023</td>
+                    <td>Rotativo</td>
+                    <td>$000</td>
+                </tr>
+                <tr>
+                    <td>11/08/2023</td>
+                    <td>SEC</td>
+                    <td>$000</td>
+                </tr>
+                <tr>
+                    <td>12/08/2023</td>
+                    <td>Libre destino</td>
+                    <td>$000</td>
+                    
+                </tr>
+                <tr>
+                    <td>11/08/2023</td>
+                    <td>Novedades varias</td>
+                    <td>$000</td>
+                </tr>
+                <tr>
+                    <td>11/08/2023</td>
+                    <td>Compra de cartera</td>
+                    <td>$000</td>
+                </tr>
+                <tr>
+                    <td class="totalvolu">11/08/2023</td>
+                    <td class="totalvolu">Total creditos</td>
+                    <td class="totalvolu">$000</td>
+                </tr>
+            </tbody>
+            </table>
+    </div>
+
+</div>
+</section>
+
+<div class="table3">
+
+    <table class="table2">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Ahorros obligatorios</th>
+                <th>Saldo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10/08/2023</td>
+                <td>Ahorros ordinarios</td>
+                <td>$000</td>
+            </tr>
+            <tr>
+                <td>11/08/2023</td>
+                <td>Ahorro permanente</td>
+                <td>$000</td>
+            </tr>
+            <tr>
+                <td class="totalvolu">12/08/2023</td>
+                <td class="totalvolu">Total ahorros obligatorios</td>
+                <td class="totalvolu">$000</td>
+            </tr>
+        </tbody>
+</div>
+
+</div>
+<a href="ver_saldo.html">Cerrar</a>
+</div>
+
+</body>
+</html>

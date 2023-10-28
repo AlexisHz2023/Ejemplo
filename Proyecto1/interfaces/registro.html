@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="..//img/img1.png">
+    <title>Registro</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../style/estilos2.css" />
+  </head>
+  <body>
+    <div class="login_form_container">
+      <div class="login_form">
+        <h2>Registro</h2>
+        
+        <div class="arriba">
+          <input type="email" id="correo" placeholder="Correo">
+          <input type="email" id="confirmarCorreo" placeholder="Confirmar Correo">
+          <input type="password" id="contraseña" placeholder="Contraseña">
+          <input type="password" id="confirmarContraseña" placeholder="Confirmar contraseña">
+      </div>
+      
+
+      <!-- <button onclick="validarRegistro()">Continuar</button> -->
+      <br><br>
+      <section>
+          <a onclick="validarRegistro()" class="btn-sesion">
+              <span id="span1"></span>
+              <span id="span2"></span>
+              <span id="span3"></span>
+              <span id="span4"></span>
+              <p>Inicio</p>
+          </a>
+          </section>
+          <input type="checkbox" id="aceptarTerminos" class="aceptarTerminos"><span>Si, he leido y acepto los terminos y condiciones</span>
+          <span class="copyright">&copy;Fondo Empleado2023</span>
+        
+        </div>
+      </div>
+    </div>
+    <img src="../img/Captura.PNG">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../script/Registroscript.js"></script>
+    <script src="../script/registro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
